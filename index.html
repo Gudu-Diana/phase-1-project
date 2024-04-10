@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Music Search</h1>
+        <div class="search-container">
+            <input type="text" id="searchBox" placeholder="Search...">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="genres">
+            <h2>Genres</h2>
+            <div class="genre-item" data-genre="Genre 1">
+                <img src="assets/album-cover-placeholder.jpg" alt="Genre 1">
+            </div>
+            <div class="genre-item" data-genre="Genre 2">
+                <img src="assets/album-cover-placeholder.jpg" alt="Genre 2">
+            </div>
+            <div class="genre-item" data-genre="Genre 3">
+                <img src="assets/album-cover-placeholder.jpg" alt="Genre 3">
+            </div>
+            <div class="genre-item" data-genre="Genre 4">
+                <img src="assets/album-cover-placeholder.jpg" alt="Genre 4">
+            </div>
+        </div>
+        <div class="top-tracks">
+            <h2>Top Tracks This Month</h2>
+            <div class="top-track">Track List
+                <ul class="ui divided list" id="tracks">
+                    <li class="track item">Track titles will go here.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>
