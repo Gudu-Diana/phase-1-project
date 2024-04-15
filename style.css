@@ -53,15 +53,15 @@ h1 {
     padding: 20px;
 }
 
-/* Genres section styles */
-.genres {
+/* Album section styles */
+.album {
     flex: 2;
     flex-wrap: wrap;
     margin-right: 20px;
 }
 
-/* Genre item styles */
-.genre-item {
+/* Album item styles */
+.album-item {
     display: flex;
     background-color: #f4f4f4;
     flex-direction: column;
@@ -71,11 +71,11 @@ h1 {
     cursor: pointer; /* Add cursor pointer for hover effect */
 }
 
-.genre-item:hover {
+.album-item:hover {
     background-color: #ddd; /* Change background color on hover */
 }
 
-.genre-item img {
+.album-item img {
     width: 50px; /* Adjust image size as needed */
     height: 50px;
     object-fit: cover;
